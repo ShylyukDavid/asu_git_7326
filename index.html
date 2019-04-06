@@ -5,6 +5,14 @@
     <script src="ipad.js"></script>
     <script src="game.js"></script>
     <style>
+     #footer {
+    position: fixed; /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    padding: 10px; /* Поля вокруг текста */
+    background: #39b54a; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+   }
       #canvas { border:1px solid black; top:0px; left:0px; }
       .button { position:absolute; border:1px solid black; }
       #left-controls { position:absolute; left:1px; bottom:0px; display:none; }
@@ -27,5 +35,8 @@
         <div id="space" class='button'>FIRE</div>
       </div>
     </div>
+<div id="footer">
+   &copy; Шилюк Девід
+  </div>
   </body>
 </html>
